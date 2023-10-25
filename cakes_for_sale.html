@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Cakes for Sale</title>
+        <link rel="stylesheet" href="css/style.css"> 
+    </head>
+
+    <body class="content-wrap">
+        <header>
+            <a  href="index.html"><img class="logo" src="images/logo.png.png" alt="logo image"></a>
+            <a href="index.html"> Home </a>&nbsp;&nbsp;
+            <a href="cakes_for_sale.html"> Cakes for Sale </a>&nbsp;&nbsp;
+            <a href="contact_us.html"> Contact Us </a>&nbsp;&nbsp;
+            <a href="about_us.html"> About Us </a>
+            <img class="banner" src="images/web_image/banner1200.png" alt="banner image"><br>
+            <div class="asty">
+            </div>
+        </header>
+        <br><br>
+        <main>
+            <section>
+            <h1 class="mainheading">Cakes for Sale</h1>            
+            <table >            
+                <tr>
+                    <td id="tdstyle"><a href="images/large/brownie640.jpg" target="_blank" alt="large brownie image"><img class="cake" src="images/small/brownie300.jpg" alt="small brownie image"></a></td>
+                    <td id="tdstyle"><a href="images/large/cheeseCake640.jpg" target="_blank" alt="large cheeseCake image"><img class="cake" src="images/small/cheeseCake300.jpg" alt="small cheeseCake image"></a></td>
+                    <td id="tdstyle"><a href="images/large/smallStrawberryCakes900.jpg" target="_blank" alt="large Strawberry Cakes image"><img class="cake" src="images/small/smallStrawberryCakes300.jpg" alt="small Strawberry Cakes image"></a></td>                    
+                </tr>
+                <tr>
+                    <td>Brownies<br>Contains dairy, nuts and eggs.</td>
+                    
+                    <td>Cheesecakes<br>Contains gluten and dairy.</td>
+                    <td>Flavoured cakes<br>Contains gluten, dairy, nuts and eggs. Strawberry cakes contain strawberries.</td>
+                </tr>                
+                <tr>
+                    <td id="tdstyle"><a href="images/large/macaron640.jpg" target="_blank" alt="large macaron image"><img class="cake" src="images/small/macaron300.jpg" alt="small macaron image"></a></td>
+                    <td id="tdstyle"><a href="images/large/specialOccasion900.jpg" target="_blank" alt="large special Occasion image"><img class="cake" src="images/small/specialOccasion300.jpg" alt="small special Occasion image"></a></td>
+                    <td id="tdstyle"><a href="images/large/cupcake640.jpg" target="_blank" alt="large cupcake image"><img class="cake" src="images/small/cupcake300.jpg" alt="small cupcake image"></a></td>
+                                        
+                </tr>
+                <tr>
+                    <td >Macarons<br>Contains gluten, dairy, nuts and eggs.</td>
+                    <td >Speciality cakes<br>Contains gluten, dairy, nuts and eggs.</td>
+                    <td >Cupcakes<br>Can be made to match dietary requirements.</td>
+                </tr>
+            </table><br><br>
+            </section>
+            <section>
+                <h2>Prices</h2>
+                <table >
+                    <tr id="tr"> 
+                        <th>Cake Size</th>
+                        <th>Suitable for</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr id="tr">
+                        <td>Small</td>
+                        <td>8-10 people</td>
+                        <td>$50.00</td>
+                    </tr> 
+                    <tr id="tr">
+                        <td>Medium</td>
+                        <td>10-12 people</td>
+                        <td>$60.00</td>
+                    </tr>
+                    <tr id="tr">
+                        <td>Large</td>
+                        <td>16-10 people</td>
+                        <td>$100.00</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2>How to Order</h2>
+                <p>If you're interested in ordering a cake for your special occasion, let us know!</p>
+                <form action="" class="myform"> 
+                    <div class="formgroup">         
+                        <lable for="name"> Name:  </lable>
+                        <input type="text" name="cfs_name" id="cfs_name">  
+                    </div>
+                    <div class="formgroup"> 
+                        <lable for="email"> Email:  </lable>
+                        <input type="email" name="cfs_email" id="cfs_email">
+                    </div>
+                    <div class="formgroup">
+                        <lable for="phone"> Phone:  </lable>
+                        <input type="number" name="cfs_phone" id="cfs_phone">
+                    </div>
+                    <div class="formgroup">
+                        <label for="cake_type"> Type of Cake Required: </label>
+                        <select name="cake_type" id="cake_type">
+                            <option value="Option">Option</option>
+                            <option value="Strawberry Cake">Strawberry Cake</option>
+                            <option value="Cheese Cake">Cheese Cake</option>
+                            <option value="Chocolate Cake">Chocolate Cake</option>
+                            <option value="Lemon Cake">Lemon Cake</option>
+                            <option value="Orange Cake">Orange Cake</option>
+                            <option value="Tiramisu Cake">Tiramisu Cake</option>
+                        </select>
+                    </div>
+                    <div class="formgroup">
+                        <label for="cake_size"> Size of Cake Required: </label>
+                        <select list="cake_size" id="cake_size">
+                            <option value="Option">Option</option>
+                            <option value="Small">Small</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Large">Large</option>
+                        </select>
+                    </div>
+                    <div class="formgroup">
+                        <label for="delivery_date"> Date to Deliver: </label>
+                        <input type="date" name="delivery_date" id="delivery_date">
+                    </div>
+                    <div class="formgroup">
+                        <lable for=""> Feedback:  </lable>
+                        <textarea name="feedback" id="feedback" cols="30" rows="15"></textarea>
+                    </div>
+                    <input  type="submit" name="submit" id="submit" value="Send" >
+                </form>
+            </section>
+            
+        </main>
+        <br><br>
+        <footer><br><br>
+            <div role="contentinfo" class="contentinfo">
+                <label> @Mykhailo Monastyrskyi </label> &nbsp;
+                <a href="http://wwww.facebook.com/" target="_blank"><img class="icons" src="images/icons/Facebook_icon.png" alt="facebook website icon"></a>&nbsp;&nbsp;
+                <a href="https://www.twitter.com/" target="_blank"><img class="icons" src="images/icons/Twitter-icon.png" alt="twitter website icon"></a>&nbsp;&nbsp;
+                <a href="https://www.instagram.com/" target="_blank"><img class="icons" src="images/icons/instagram_icon.png" alt="instagram website icon"></a>
+            </div>
+        </footer>
+    </body>
+</html>
